@@ -47,7 +47,7 @@ function tomorrow(){
   			case 'Thu': return TBFRI1;
    			case 'Fri':	return TBSAT1;
  			case 'Sat':	return TBSUN1;
-			case 'Sun': return TBMON1;			
+			case 'Sun': return TBMON2;			
 			}
 	else {
 		switch ($data) {
@@ -57,7 +57,7 @@ function tomorrow(){
   			case 'Thu': return TBFRI2;
    			case 'Fri':	return TBSAT2;
  			case 'Sat':	return TBSUN2;
-			case 'Sun': return TBMON2;		
+			case 'Sun': return TBMON1;		
 			}
 	}
 	}
